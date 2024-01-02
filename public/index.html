@@ -5,8 +5,8 @@
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="theme-color" content="#8A2BE2" />
+  <meta name="description" content="Um aplicativo desenvolvido para gerar frases motivacionais aléatórias de grandes pensadores." />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
   <!-- Inserir o link da fonte do Google Fonts aqui -->
@@ -17,6 +17,11 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <title>Frases Motivacionais</title>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+  </script>
 </head>
 
 <body>
