@@ -451,6 +451,14 @@
       "sizes": "1024x1024"
     }
   ],
+  "screenshots" : [
+    {
+      "src": "screenshot.png",
+      "sizes": "387x859",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
