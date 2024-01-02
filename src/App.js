@@ -7,6 +7,7 @@ function App() {
     const [mensagem, setMensagem] = useState(mensagemInicial);
     const [mostrarMensagem, setMostrarMensagem] = useState(true);
     const audioRef = useRef(null);
+    const timerRef = useRef(null); // Referência para o timer
 
     const mensagensMotivacionais = [
         { frase: "Determinação, coragem e autoconfiança são fatores decisivos para o sucesso.", autor: "Dalai Lama" }, // 1
@@ -114,15 +115,21 @@ function App() {
     ];
 
     const carregarMensagem = () => {
+        // Cancelando o timer anterior
+        if (timerRef.current) {
+            clearTimeout(timerRef.current);
+        }
+
         const indiceAleatorio = Math.floor(Math.random() * mensagensMotivacionais.length);
         const mensagemSelecionada = mensagensMotivacionais[indiceAleatorio];
         setMensagem(mensagemSelecionada);
         setMostrarMensagem(true);
 
-        setTimeout(() => {
+        // Configurando um novo timer
+        timerRef.current = setTimeout(() => {
             setMensagem(mensagemInicial);
             setMostrarMensagem(true);
-        }, 60000); // Redefine para a mensagem inicial após 60 segundos
+        }, 30000); // Redefine para a mensagem inicial após 30 segundos
     };
 
     useEffect(() => {
