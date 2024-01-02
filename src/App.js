@@ -122,7 +122,7 @@ function App() {
         setTimeout(() => {
             setMensagem(mensagemInicial);
             setMostrarMensagem(true);
-        }, 30000); // Redefine para a mensagem inicial após 30 segundos
+        }, 60000); // Redefine para a mensagem inicial após 60 segundos
     };
 
     useEffect(() => {
