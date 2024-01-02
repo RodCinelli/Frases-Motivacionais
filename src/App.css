@@ -1,0 +1,72 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.background-image {
+  background-image: url('./fundo.png');
+  background-size: cover;
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  min-height: 100vh; /* Garante que o fundo cubra a altura total da tela */
+}
+
+body {
+  font-family: 'Bungee', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mensagem-container {
+  font-weight: 700;
+  margin-top: 450px;
+  padding: 20px;
+  border: 3px solid #8A2BE2; /* Cor da borda atualizada */
+  border-radius: 10px;
+  max-width: 350px;
+  max-height: 200px; /* Ajuste este valor conforme necessário */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente transparente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para efeitos */
+}
+
+.mensagem-container p.autor {
+  margin-top: 1rem; /* Ajuste este valor para controlar o espaçamento */
+}
+
+.frase {
+  color: #4169E1 /* Substitua #suaCorEscolhida pela cor que você deseja */
+}
+
+
+.autor {
+  color: #8A2BE2 /* Substitua #suaCorEscolhida pela cor que você deseja */
+}
+
+.mensagem-container:hover {
+  transform: scale(1.02); /* Efeito de leve zoom ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais proeminente no hover */
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8A2BE2; /* Cor do botão atualizada */
+  color: #FFFFFF; /* Cor do texto atualizada */
+  font-size: 16px;
+  font-family: 'Bungee', cursive; /* cursive é um fallback genérico para fontes decorativas */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o hover */
+}
+
+button:hover {
+  background-color: #9a4fe1; /* Cor de hover ajustada para um roxo mais claro */
+  transform: translateY(-2px); /* Efeito de levantar o botão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+}
+
