@@ -202,6 +202,11 @@ function App() {
         { frase: "O importante não é vencer todos os dias, mas lutar sempre.", autor: "Waldemar Valle Martins" }, // 189
         { frase: "O que me preocupa não é o grito dos maus. É o silêncio dos bons.", autor: "Martin Luther King" }, // 190
         { frase: "A medida do amor é amar sem medida.", autor: "Santo Agostinho" }, // 191
+        { frase: "A saudade é a nossa alma dizendo para onde ela quer voltar.", autor: "Rubem Alves" }, // 192
+        { frase: "Amar não é olhar um para o outro, é olhar juntos na mesma direção.", autor: "Antoine de Saint-Exupéry" }, // 193
+        { frase: "Pouca sinceridade é uma coisa perigosa, e muita sinceridade é absolutamente fatal.", autor: "Oscar Wilde" }, // 194
+        { frase: "Seja humilde, pois até o sol com toda sua grandeza se põe e deixa a lua brilhar.", autor: "Bob Marley" }, // 195
+        { frase: "Só se vê bem com o coração, o essencial é invisível aos olhos.", autor: "Antoine de Saint-Exupéry" }, // 196
         // Adicione os outros objetos de frases e autores aqui
     ];
 
