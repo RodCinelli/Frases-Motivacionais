@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
-import sleepMusic from './sleep-music.mp3'; // Importando o arquivo de áudio
+import sleepMusic from './relaxing-river-sound.mp3'; // Importando o arquivo de áudio
 
 function App() {
     const mensagemInicial = { frase: "Clique para receber uma mensagem motivacional", autor: "" };

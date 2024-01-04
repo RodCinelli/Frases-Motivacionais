@@ -7,7 +7,7 @@
 }
 
 .background-image {
-  background-image: url('./fundo.png');
+  background-image: url('./fundo3.png');
   background-size: cover;
   background-position: center; /* Centraliza a imagem de fundo */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -21,29 +21,28 @@ body {
 
 .mensagem-container {
   font-weight: 700;
-  margin-top: 405px;
   padding: 20px;
-  border: 3px solid #8A2BE2; /* Cor da borda atualizada */
+  border: 4px solid #1E90FF; /* Cor da borda atualizada */
   border-radius: 10px;
   max-width: 300px;
   max-height: 200px; /* Ajuste este valor conforme necessário */
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente transparente */
+  background-color: rgba(255, 255, 255, 0.7); /* Fundo levemente transparente */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para efeitos */
 }
 
 .mensagem-container p.autor {
-  margin-top: 1rem; /* Ajuste este valor para controlar o espaçamento */
+  margin-top: 1.5rem; /* Ajuste este valor para controlar o espaçamento */
 }
 
 .frase {
-  color: #4169E1 /* Substitua #suaCorEscolhida pela cor que você deseja */
+  color: #4169E1; /* Substitua #suaCorEscolhida pela cor que você deseja */
 }
 
 
 .autor {
-  color: #8A2BE2 /* Substitua #suaCorEscolhida pela cor que você deseja */
+  color: #1E90FF; /* Substitua #suaCorEscolhida pela cor que você deseja */
 }
 
 .mensagem-container:hover {
@@ -52,22 +51,22 @@ body {
 }
 
 button {
-  margin-top: 30px;
+  margin-top: 35px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #8A2BE2; /* Cor do botão atualizada */
-  color: #FFFFFF; /* Cor do texto atualizada */
+  background-color: rgba(30, 144, 255, 0.7); /* Cor azul com transparência */
+  color: #FFFFFF;
   font-size: 16px;
-  font-family: 'Bungee', cursive; /* cursive é um fallback genérico para fontes decorativas */
+  font-family: 'Bungee', cursive;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o hover */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-  background-color: #9a4fe1; /* Cor de hover ajustada para um roxo mais claro */
-  transform: translateY(-2px); /* Efeito de levantar o botão */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+  background-color: rgba(30, 144, 255, 0.7); /* Cor de hover roxa com transparência */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
