@@ -3,7 +3,7 @@ import './App.css';
 import sleepMusic from './sleep-music.mp3'; // Importando o arquivo de áudio
 
 function App() {
-    const mensagemInicial = { frase: "Clique para receber uma mensagem motivacional !", autor: "" };
+    const mensagemInicial = { frase: "Clique para receber uma mensagem motivacional.", autor: "" };
     const [mensagem, setMensagem] = useState(mensagemInicial);
     const [mostrarMensagem, setMostrarMensagem] = useState(true);
     const audioRef = useRef(null);
