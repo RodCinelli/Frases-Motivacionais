@@ -462,7 +462,7 @@
   "start_url": "https://frases-motivacionais-six.vercel.app/",
   "display": "standalone",
   "theme_color": "#1E90FF",
-  "background_color": "#FFFFFF",
+  "background_color": "#1E90FF",
   "id": "RodCinelli",
   "description": "Um aplicativo desenvolvido para gerar 366 frases motivacionais aléatórias de grandes pensadores.",
   "lang": "pt",
