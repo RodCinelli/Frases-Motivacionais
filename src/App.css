@@ -55,15 +55,17 @@ button {
   margin-top: 35px;
   padding: 5px 15px;
   line-height: 1.5; /* Ajusta o espaçamento entre as linhas */
-  border: none;
-  border-radius: 5px;
+  border: 4px solid #1E90FF; 
+  border-radius: 10px;
   background-color: rgba(30, 144, 255, 0.7); /* Cor azul com transparência */
   color: #FFFFFF;
   font-size: 15px;
   font-family: 'Bungee', cursive;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 
 button:hover {
   background-color: rgba(30, 144, 255, 0.7); /* Cor de hover roxa com transparência */
