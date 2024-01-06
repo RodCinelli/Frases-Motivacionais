@@ -305,7 +305,7 @@ function App() {
                         {mensagem.autor && <p className="autor">{mensagem.autor}</p>}
                     </div>
                 )}
-                <button onClick={carregarMensagem}>Receber<br /><br />Mensagem</button>
+                <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
 
             </header>
         </div>
