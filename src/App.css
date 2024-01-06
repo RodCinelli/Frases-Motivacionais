@@ -59,7 +59,7 @@ button {
   border-radius: 10px;
   background-color: rgba(30, 144, 255, 0.7); /* Cor azul com transparência */
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Bungee', cursive;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
