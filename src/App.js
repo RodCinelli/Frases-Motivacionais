@@ -240,6 +240,24 @@ function App() {
         { frase: "O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis.", autor: "José de Alencar" }, // 230
         { frase: "Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida.", autor: "Sêneca" }, // 231
         { frase: "Quando a gente acha que tem todas as respostas, vem a vida e muda todas as perguntas.", autor: "Luis Fernando Verissimo" }, // 232
+        { frase: "Não faças da tua vida um rascunho. Poderás não ter tempo de passá-la a limpo.", autor: "Mario Quintana" }, // 233
+        { frase: "Quantas coisas perdemos por medo de perder.", autor: "Paulo Coelho" }, // 234
+        { frase: "Lembrar é fácil para quem tem memória. Esquecer é difícil para quem tem coração.", autor: "Gabriel García Márquez" }, // 235
+        { frase: "Fico triste quando alguém me ofende, mas, com certeza, eu ficaria mais triste se fosse eu o ofensor... Magoar alguém é terrível!", autor: "Chico Xavier" }, // 236
+        { frase: "Creia em si, mas não duvide sempre dos outros.", autor: "Machado de Assis" }, // 237
+        { frase: "A força não provém da capacidade física. Provém de uma vontade indomável.", autor: "Mahatma Gandhi" }, // 238
+        { frase: "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.", autor: "Carlos Drummond de Andrade" }, // 239
+        { frase: "Não posso escolher como me sinto, mas posso escolher o que fazer a respeito.", autor: "William Shakespeare" }, // 240
+        { frase: "Dê a quem você ama: asas para voar, raízes para voltar e motivos para ficar.", autor: "Dalai Lama" },
+        
+
+
+
+
+
+
+
+
         // Adicione os outros objetos de frases e autores aqui
     ];
 
@@ -287,7 +305,8 @@ function App() {
                         {mensagem.autor && <p className="autor">{mensagem.autor}</p>}
                     </div>
                 )}
-                <button onClick={carregarMensagem}>Receber Mensagem</button>
+                <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
+
             </header>
         </div>
     );
