@@ -41,12 +41,12 @@ function App() {
         { frase: "Tudo o que a mente humana pode conceber, ela pode conquistar.", autor: "Napoleon Hill" }, // 29
         { frase: "A jornada de mil milhas começa com um único passo.", autor: "Lao Tzu" }, // 30
         { frase: "O segredo do sucesso é a constância do propósito.", autor: "Benjamin Disraeli" }, // 31
-        { frase: "Seja a mudança que você deseja ver no mundo.", autor: "Mahatma Gandhi" }, // 32
+        { frase: "Seja a mudança que você quer ver no mundo.", autor: "Mahatma Gandhi" }, // 32
         { frase: "O sucesso é a soma de pequenos esforços repetidos dia após dia.", autor: "Robert Collier" }, //33
         { frase: "Você nunca falha até parar de tentar.", autor: "Isaac Newton" }, // 34
         { frase: "A vida é sobre fazer um impacto, não uma renda.", autor: "Kevin Kruse" }, // 35
         { frase: "A imaginação é mais importante que o conhecimento.", autor: "Albert Einstein" }, // 36
-        { frase: "Faça ou não faça. Tentativa não existe.", autor: "Yoda" }, // 37
+        { frase: "Tome cuidado com o vazio de uma vida ocupada demais.", autor: "Sócrates" }, // 37
         { frase: "Seja você mesmo; todos os outros já existem.", autor: "Oscar Wilde" }, // 38 
         { frase: "A vida é o que acontece quando você está ocupado fazendo outros planos.", autor: "John Lennon" }, // 39
         { frase: "Faça sempre o seu melhor. O que você planta agora, colherá mais tarde.", autor: "Og Mandino" }, // 40
@@ -79,7 +79,7 @@ function App() {
         { frase: "Eu não falhei. Eu encontrei 10.000 maneiras que não funcionam.", autor: "Thomas Edison" }, // 67
         { frase: "A coragem é como um músculo; ela é fortalecida pelo uso.", autor: "Ruth Gordon" }, // 68
         { frase: "O segredo do sucesso é a constância para o objetivo.", autor: "Benjamin Disraeli" }, // 69
-        { frase: "A vida é 10% o que acontece comigo e 90% como eu reajo a isso.", autor: "Charles Swindoll" }, // 70
+        { frase: "O pensamento tem muito poder, muitas vezes aquilo que pensamos pode se realizar. Por isso, pense sempre positivo.", autor: "Ali" }, // 70
         { frase: "Para ser bem-sucedido, a primeira coisa a fazer é se apaixonar pelo seu trabalho.", autor: "Sister Mary Lauretta" }, // 71
         { frase: "O sucesso é a soma de pequenos esforços repetidos dia após dia.", autor: "Robert Collier" }, // 72
         { frase: "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso.", autor: "Albert Schweitzer" }, // 73
@@ -105,7 +105,7 @@ function App() {
         { frase: "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.", autor: "Steve Jobs" }, // 93
         { frase: "Você perde 100% das chances que não aproveita.", autor: "Wayne Gretzky" }, // 94
         { frase: "A melhor preparação para o amanhã é fazer o seu melhor hoje.", autor: "H. Jackson Brown Jr." }, // 95
-        { frase: "A vida é 10% o que me acontece e 90% de como eu reajo a isso.", autor: "Charles R. Swindoll" }, // 96
+        { frase: "Quem quer de verdade, acha um caminho. Quem diz querer, acha uma desculpa.", autor: "Alysson Augusto" }, // 96
         { frase: "A motivação é o que faz você começar. O hábito é o que faz você continuar.", autor: "Jim Ryun" }, // 97
         { frase: "Só se pode alcançar um grande êxito quando nos mantemos fiéis a nós mesmos.", autor: "Friedrich Nietzsche" }, // 99
         { frase: "Só existe um êxito: a capacidade de levar a vida que se quer.", autor: "Cristopher Morley" }, // 100
@@ -248,16 +248,36 @@ function App() {
         { frase: "A força não provém da capacidade física. Provém de uma vontade indomável.", autor: "Mahatma Gandhi" }, // 238
         { frase: "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.", autor: "Carlos Drummond de Andrade" }, // 239
         { frase: "Não posso escolher como me sinto, mas posso escolher o que fazer a respeito.", autor: "William Shakespeare" }, // 240
-        { frase: "Dê a quem você ama: asas para voar, raízes para voltar e motivos para ficar.", autor: "Dalai Lama" },
-        
-
-
-
-
-
-
-
-
+        { frase: "Dê a quem você ama: asas para voar, raízes para voltar e motivos para ficar.", autor: "Dalai Lama" }, // 241
+        { frase: "Jamais se desespere em meio às sombrias aflições de sua vida, pois das nuvens mais negras cai água límpida e fecunda.", autor: "Provérbio Chinês" }, // 242
+        { frase: "Uma coisa é você achar que está no caminho certo, outra é achar que o seu caminho é o único. Nunca podemos julgar a vida dos outros, porque cada um sabe da sua própria dor e renúncia.", autor: "Paulo Coelho" }, // 243
+        { frase: "Aprenda como se você fosse viver para sempre. Viva como se você fosse morrer amanhã.", autor: "Santo Isidoro de Sevilha" }, // 244
+        { frase: "O segredo da criatividade é saber como esconder as fontes.", autor: "C. E. M. Joad" }, // 245
+        { frase: "Não devemos permitir que alguém saia da nossa presença sem se sentir melhor e mais feliz.", autor: "Madre Teresa de Calcutá" }, // 246
+        { frase: "Só se pode alcançar um grande êxito quando nos mantemos fiéis a nós mesmos.", autor: "Friedrich Nietzsche" }, // 247
+        { frase: "Viva como se fosse morrer amanhã. Aprenda como se fosse viver para sempre.", autor: "Mahatma Gandhi" }, // 248
+        { frase: "O mundo é um lugar perigoso de se viver, não por causa daqueles que fazem o mal, mas sim por causa daqueles que observam e deixam o mal acontecer.", autor: "Albert Einstein" }, // 249
+        { frase: "A única coisa que nunca se recupera na vida quando se perde é o tempo.", autor: "Confúcio" }, // 250
+        { frase: "Se quer viver uma vida feliz, amarre-se a uma meta, não às pessoas nem às coisas.", autor: "Albert Einstein" }, // 251
+        { frase: "Não espere por uma crise para descobrir o que é importante em sua vida.", autor: "Platão" }, // 252
+        { frase: "Nas grandes batalhas da vida, o primeiro passo para a vitória é o desejo de vencer.", autor: "Mahatma Gandhi" }, // 253
+        { frase: "A liberdade está em ser dono da própria vida.", autor: "Platão" }, // 254
+        { frase: "Quando o objetivo parece difícil para você, não mude seu objetivo, procure uma nova maneira de alcançar.", autor: "Confúcio" }, // 255
+        { frase: "Talvez eu seja enganado inúmeras vezes... mas não deixarei de acreditar que em algum lugar, alguém merece a minha confiança.", autor: "Aristóteles" }, // 256
+        { frase: "Às vezes, não conseguir o que você quer é uma tremenda sorte.", autor: "Dalai Lama" }, // 257
+        { frase: "O comportamento é um espelho em que cada um revela a sua imagem.", autor: "Goethe" }, // 258
+        { frase: "A beleza das coisas existe no espírito de quem as contempla.", autor: "David Hume" }, // 259
+        { frase: "Uma pessoa que nunca cometeu erros nunca tentou algo novo.", autor: "Albert Einstein" }, // 260
+        { frase: "Não importa a sua velocidade, desde que você siga em frente.", autor: "Confúcio" }, // 261
+        { frase: "É preciso coragem para levantar-se e falar, mas também é preciso coragem para sentar-se e ouvir.", autor: "Winston Churchill" }, //262
+        { frase: "Tente mover o mundo, o primeiro passo será mover a si mesmo.", autor: "Platão" }, // 263
+        { frase: "Não basta saber, é preciso aplicar. Não basta querer, é preciso também agir.", autor: "Goethe" }, // 264
+        { frase: "Você tem que ter uma atitude positiva e tirar o melhor da situação na qual se encontra.", autor: "Stephen Hawking" }, // 265
+        { frase: "A compaixão para com os animais é das mais nobres virtudes da natureza humana.", autor: "Charles Darwin" }, // 266
+        { frase: "A bondade é a língua que o surdo pode ouvir e o cego pode ver.", autor: "Mark Twain" }, // 267
+        { frase: "Ninguém cruza nosso caminho por acaso e nós não entramos na vida de alguém sem nenhuma razão.", autor: "Chico Xavier" }, //268
+        { frase: "A vida é maravilhosa se não se tem medo dela.", autor: "Charles Chaplin" }, // 269
+        { frase: "O segredo da vida não é ter tudo que você quer, mas amar tudo que você tem!", autor: "George Carlin" } // 270
         // Adicione os outros objetos de frases e autores aqui
     ];
 
