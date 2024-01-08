@@ -303,35 +303,6 @@ function App() {
         { frase: "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante.", autor: "Augusto Branco" }, // 304
         { frase: "Amar talvez seja isso... Descobrir o que o outro fala mesmo quando ele não diz.", autor: "Padre Fábio de Melo" }, // 305
         { frase: "Não ame pela beleza, pois um dia ela acaba. Não ame por admiração, pois um dia você se decepciona. Ame apenas, pois o tempo nunca pode acabar com um amor sem explicação.", autor: "Madre Teresa de Calcutá" }, // 306
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // Adicione os outros objetos de frases e autores aqui
     ];
 
