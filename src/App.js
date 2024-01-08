@@ -277,7 +277,61 @@ function App() {
         { frase: "A bondade é a língua que o surdo pode ouvir e o cego pode ver.", autor: "Mark Twain" }, // 267
         { frase: "Ninguém cruza nosso caminho por acaso e nós não entramos na vida de alguém sem nenhuma razão.", autor: "Chico Xavier" }, //268
         { frase: "A vida é maravilhosa se não se tem medo dela.", autor: "Charles Chaplin" }, // 269
-        { frase: "O segredo da vida não é ter tudo que você quer, mas amar tudo que você tem!", autor: "George Carlin" } // 270
+        { frase: "O segredo da vida não é ter tudo que você quer, mas amar tudo que você tem!", autor: "George Carlin" }, // 270
+        { frase: "O valor das coisas não está no tempo que elas duram, mas na intensidade com que acontecem. Por isso existem momentos inesquecíveis, coisas inexplicáveis e pessoas incomparáveis.", autor: "Fernando Sabino" }, // 280
+        { frase: "O tempo é algo que não volta atrás. Por isso plante seu jardim e decore sua alma, ao invés de esperar que alguém lhe traga flores.", autor: "Veronica Shoffstall" }, // 281
+        { frase: "Enquanto houver vontade de lutar haverá esperança de vencer.", autor: "Santo Agostinho" }, // 282
+        { frase: "Todos querem o perfume das flores, mas poucos sujam suas mãos para cultivá-las.", autor: "Augusto Cury" }, // 283
+        { frase: "Nada que vale a pena é fácil. Lembre-se disso.", autor: "Nicholas Sparks" }, // 284
+        { frase: "Para ter algo que você nunca teve, é preciso fazer algo que você nunca fez.", autor: "Chico Xavier" }, // 285
+        { frase: "As coisas mais simples da vida são as mais extraordinárias, e só os sábios conseguem vê-las.", autor: "Paulo Coelho" }, //286
+        { frase: "Deus não coloca um peso nos ombros de um homem se souber que ele não pode carregá-lo.", autor: "Muhammad Ali" }, // 289
+        { frase: "Novas conquistas acontecem quando você muda hábitos.", autor: "Roberto Shinyashiki" }, // 290
+        { frase: "Mude, mas comece devagar, porque a direção é mais importante que a velocidade.", autor: "Clarice Lispector" }, // 291
+        { frase: "As palavras nos ensinam em um processo rápido e temporário, as atitudes nos ensinam num processo lento e inesquecível", autor: "NEOQJAV" }, // 292
+        { frase: "O descontentamento é o primeiro passo na evolução de um homem ou de uma nação.", autor: "Oscar Wilde" }, // 293
+        { frase: "Há duas formas para viver a sua vida. Uma é acreditar que não existe milagre. A outra é acreditar que todas as coisas são um milagre.", autor: "Albert Einstein" }, // 294
+        { frase: "Ser profundamente amado por alguém nos dá força; amar alguém profundamente nos dá coragem.", autor: "Lao-Tsé" }, // 295
+        { frase: "A humildade é a única base sólida de todas as virtudes.", autor: "Confúcio" }, // 296
+        { frase: "Aprendi o silêncio com os faladores, a tolerância com os intolerantes, a bondade com os maldosos; e, por estranho que pareça, sou grato a esses professores.", autor: "Khalil Gibran" }, // 297
+        { frase: "É fazendo que se aprende a fazer aquilo que se deve aprender a fazer.", autor: "Aristóteles" }, // 298
+        { frase: "Quem não compreende um olhar, tampouco compreenderá uma longa explicação.", autor: "Provérbio Árabe" }, // 299
+        { frase: "A nossa felicidade depende mais do que temos nas nossas cabeças, do que nos nossos bolsos.", autor: "Arthur Schopenhauer" }, // 300
+        { frase: "Os homens erram, os grandes homens confessam que erraram.", autor: "Voltaire" }, // 301
+        { frase: "O pessimista é uma pessoa que, podendo escolher entre dois males, prefere ambos.", autor: "Oscar Wilde" }, // 302
+        { frase: "Deus nos concede, a cada dia, uma página de vida nova no livro do tempo. Aquilo que colocarmos nela, corre por nossa conta.", autor: "Chico Xavier" }, // 303
+        { frase: "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante.", autor: "Augusto Branco" }, // 304
+        { frase: "Amar talvez seja isso... Descobrir o que o outro fala mesmo quando ele não diz.", autor: "Padre Fábio de Melo" }, // 305
+        { frase: "Não ame pela beleza, pois um dia ela acaba. Não ame por admiração, pois um dia você se decepciona. Ame apenas, pois o tempo nunca pode acabar com um amor sem explicação.", autor: "Madre Teresa de Calcutá" }, // 306
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Adicione os outros objetos de frases e autores aqui
     ];
 
