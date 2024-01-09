@@ -303,6 +303,10 @@ function App() {
         { frase: "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante.", autor: "Augusto Branco" }, // 304
         { frase: "Amar talvez seja isso... Descobrir o que o outro fala mesmo quando ele não diz.", autor: "Padre Fábio de Melo" }, // 305
         { frase: "Não ame pela beleza, pois um dia ela acaba. Não ame por admiração, pois um dia você se decepciona. Ame apenas, pois o tempo nunca pode acabar com um amor sem explicação.", autor: "Madre Teresa de Calcutá" }, // 306
+        { frase: "A coragem é a primeira das qualidades humanas porque garante todas as outras.", autor: "Winston Churchill" }, // 307 
+        { frase: "As religiões são caminhos diferentes convergindo para o mesmo ponto. Que importância faz se seguimos por caminhos diferentes, desde que alcancemos o mesmo objetivo?", autor: "Mahatma Gandhi" }, // 308
+        { frase: "Um dia sem rir é um dia desperdiçado.", autor: "Sébastien-Roch Chamfort" }, // 309
+        { frase: "As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente.", autor: "Zig Ziglar" }, // 310
         // Adicione os outros objetos de frases e autores aqui
     ];
 
