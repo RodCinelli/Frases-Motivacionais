@@ -42,7 +42,6 @@ body {
   color: #4169E1; /* Substitua #suaCorEscolhida pela cor que você deseja */
 }
 
-
 .autor {
   font-size: 15px;
   color: #1E90FF; /* Substitua #suaCorEscolhida pela cor que você deseja */
@@ -68,11 +67,8 @@ button {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-
 button:hover {
   background-color: rgba(30, 144, 255, 0.7); /* Cor de hover roxa com transparência */
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
