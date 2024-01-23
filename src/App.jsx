@@ -344,19 +344,19 @@ function App() {
 
     return (
         <div className={`${styles.App} ${styles.backgroundImage}`} style={{ backgroundImage: `url(/images/fundo3.png)` }}>
-    <audio ref={audioRef} src={sleepMusic} loop>
-        Seu navegador não suporta o elemento de áudio.
-    </audio>
-    <header className={styles['App-header']}>
-        {mostrarMensagem && (
-            <div className={styles['mensagem-container']}>
-                <p className={styles.frase}>{mensagem.frase}</p>
-                {mensagem.autor && <p className={styles.autor}>{mensagem.autor}</p>}
-            </div>
-        )}
-        <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
-    </header>
-</div>
+            <audio ref={audioRef} src={sleepMusic} loop>
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <header className={styles['App-header']}>
+                {mostrarMensagem && (
+                    <div className={styles['mensagem-container']}>
+                        <p className={styles.frase}>{mensagem.frase}</p>
+                        {mensagem.autor && <p className={styles.autor}>{mensagem.autor}</p>}
+                    </div>
+                )}
+                <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
+            </header>
+        </div>
     );
 }
 
