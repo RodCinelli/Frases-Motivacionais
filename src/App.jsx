@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './App.css';
-import sleepMusic from './relaxing-river-sound.mp3'; // Importando o arquivo de áudio
+import styles from './App.module.css';
 
 function App() {
     const mensagemInicial = { frase: "Clique para receber uma mensagem motivacional", autor: "" };
+    const sleepMusic = '/sounds/relaxing-river-sound.mp3'; // Referenciando o arquivo de áudio
     const [mensagem, setMensagem] = useState(mensagemInicial);
     const [mostrarMensagem, setMostrarMensagem] = useState(true);
     const audioRef = useRef(null);
@@ -343,21 +343,20 @@ function App() {
     }, []);
 
     return (
-        <div className="App background-image">
-            <audio ref={audioRef} src={sleepMusic} loop>
-                Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <header className="App-header">
-                {mostrarMensagem && (
-                    <div className="mensagem-container">
-                        <p className="frase">{mensagem.frase}</p>
-                        {mensagem.autor && <p className="autor">{mensagem.autor}</p>}
-                    </div>
-                )}
-                <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
-
-            </header>
-        </div>
+        <div className={`${styles.App} ${styles.backgroundImage}`} style={{ backgroundImage: `url(/images/fundo3.png)` }}>
+    <audio ref={audioRef} src={sleepMusic} loop>
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <header className={styles['App-header']}>
+        {mostrarMensagem && (
+            <div className={styles['mensagem-container']}>
+                <p className={styles.frase}>{mensagem.frase}</p>
+                {mensagem.autor && <p className={styles.autor}>{mensagem.autor}</p>}
+            </div>
+        )}
+        <button onClick={carregarMensagem}>Receber<br />Mensagem</button>
+    </header>
+</div>
     );
 }
 

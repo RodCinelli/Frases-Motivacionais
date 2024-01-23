@@ -6,13 +6,13 @@
   min-height: 100vh;
 }
 
-.background-image {
-  background-image: url('./fundo3.png');
+.backgroundImage {
   background-size: cover;
-  background-position: center; /* Centraliza a imagem de fundo */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  min-height: 100vh; /* Garante que o fundo cubra a altura total da tela */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Altura total da tela */
 }
+
 
 body {
   font-family: 'Bungee', sans-serif;
